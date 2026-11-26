@@ -1,0 +1,6 @@
+schema_version: 1
+resources:
+  bikes:
+    path: /api/bikes
+    id: id
+    seed: seeds/bikes.json

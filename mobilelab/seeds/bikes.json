@@ -1,0 +1,12 @@
+[
+  {
+    "id":"demo-urbana","name":"Urbana verde","type":"Urbana","odometerKm":1280,
+    "components":[
+      {"id":"chain","name":"Cadena","serviceEveryKm":500,"lastServiceKm":900,"critical":true,"active":true},
+      {"id":"brakes","name":"Pastillas de freno","serviceEveryKm":1000,"lastServiceKm":200,"critical":true,"active":true},
+      {"id":"tires","name":"Neumáticos","serviceEveryKm":1800,"lastServiceKm":0,"critical":false,"active":true}
+    ],
+    "checks":[{"id":"demo-check","at":"2026-11-25T13:30:00.000Z","odometerKm":1275,"answers":{"air":true,"brakes":true,"chain":true,"helmet":true,"visibility":true},"result":"ready"}]
+  },
+  {"id":"demo-montana","name":"Montañera naranja","type":"Montaña","odometerKm":340,"components":[],"checks":[]}
+]
